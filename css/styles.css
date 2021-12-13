@@ -162,8 +162,10 @@
     text-decoration: none;
     color: white;
     margin-top: 19px;
-    margin-left: 25px;
     font-size: 12px;
+  }
+  #footer-item-1{
+    margin-left: 25px;
   }
 
   .foot li a:hover{
