@@ -1,4 +1,5 @@
 
+/* -------------------------Heading ------------------------------*/
 .header-left{
     float: left;
     margin-top: 20px;
@@ -58,6 +59,7 @@
     
 }
 
+/* ----------------- Navbar in Heading ---------------------*/
 .head-nav-bar  {
     list-style-type: none;
     overflow: hidden;
@@ -65,7 +67,7 @@
     margin-top: 12px;
     font-size: 12px;
   }
-  
+ 
   .head-nav-bar li {
     float: left;
   }
@@ -77,11 +79,15 @@
     color: black;
 
   }
+  .head-nav-bar li a:hover{
+    color: #969696;
+  }
   .separator{
       padding: 5px;
   }
+  /* ------------------------------End of Heading ----------------------*/
 
-  /* navigation bar */
+  /* ------------------------navigation bar -----------------------------*/
   .nav-bar{
       font-size: 14px;
       font-weight:600;
@@ -97,11 +103,20 @@
     text-decoration: none;
     color: #474747;
   }
+  .nav-bar li a:hover{
+    color: #969696;
+  }
+
+  /* .nav-bar li a:visited{
+    color: #969696;
+  } */
 
 #nav-item-5, #nav-item-6{
     float: right;
     margin-right: 23px;
 }
+
+/* ------------------------ End of Navbar -------------------*/
 
 
   /* left navbar */
@@ -135,6 +150,9 @@
     margin-top: 29px;
     
 }
+
+
+/* ----------------- Footer --------------------*/
 .foot ul li{
     float: left;
 }
@@ -147,6 +165,10 @@
     margin-left: 25px;
     font-size: 12px;
   }
+
+  .foot li a:hover{
+    color : #2FC1DA;
+  }
   .dot-separator{
       padding-left: 5px;
       padding-right:5px;
@@ -156,7 +178,10 @@
       margin-right: 23px;;
   }
 
-  /* right navbar */
+  /* -------------------------Footer End -------------------*/
+
+
+  /* --------------------right navbar---------------- */
 
  
   .right-nav-title{
@@ -189,7 +214,10 @@
     
   }
 
-  /* Body content */
+  /* --------------------Right Navbar End---------------- */
+
+  
+  /* ----------------------------- Body content ------------------------------- */
   
 
   .main-heading{
