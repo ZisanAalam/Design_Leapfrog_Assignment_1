@@ -252,6 +252,7 @@
   .divider{
     display: block;
     clear: both;
+    width: 518px;
     border-bottom: 2px solid #d8d8d8;
   }
 
